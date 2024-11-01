@@ -1,0 +1,170 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Bit Payment Gateway\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-07 14:43+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: woocommerce-bit-payment-gateway.php:44
+msgid "Configure"
+msgstr ""
+
+#: woocommerce-bit-payment-gateway.php:267
+msgid "Bit Payment"
+msgstr ""
+
+#: woocommerce-bit-payment-gateway.php:269
+#: woocommerce-bit-payment-gateway.php:337
+msgid ""
+"Please forward a Bit payment, use an order number in the Note field when "
+"making payment."
+msgstr ""
+
+#: woocommerce-bit-payment-gateway.php:270
+#: woocommerce-bit-payment-gateway.php:346
+#: woocommerce-bit-payment-gateway.php:347
+msgid "Your {site_title} order has been received!"
+msgstr ""
+
+#: woocommerce-bit-payment-gateway.php:271
+#: woocommerce-bit-payment-gateway.php:355
+#: woocommerce-bit-payment-gateway.php:356
+msgid "Thank you for your order"
+msgstr ""
+
+#: woocommerce-bit-payment-gateway.php:303
+#: emails/class-bit-payment-email.php:198
+msgid "Enable/Disable"
+msgstr ""
+
+#: woocommerce-bit-payment-gateway.php:305
+msgid "Enable Bit Payment"
+msgstr ""
+
+#: woocommerce-bit-payment-gateway.php:310
+msgid "Title"
+msgstr ""
+
+#: woocommerce-bit-payment-gateway.php:312
+msgid ""
+"This controls the title for the payment method the customer sees during "
+"checkout."
+msgstr ""
+
+#: woocommerce-bit-payment-gateway.php:313
+msgid "Bit charge"
+msgstr ""
+
+#: woocommerce-bit-payment-gateway.php:318
+msgid "Description"
+msgstr ""
+
+#: woocommerce-bit-payment-gateway.php:320
+#: woocommerce-bit-payment-gateway.php:321
+msgid "Payment method description that the customer will see on your checkout."
+msgstr ""
+
+#: woocommerce-bit-payment-gateway.php:327
+msgid "Receiver Phone Number"
+msgstr ""
+
+#: woocommerce-bit-payment-gateway.php:329
+msgid "Payments are sent to this number."
+msgstr ""
+
+#: woocommerce-bit-payment-gateway.php:335
+msgid "Instructions"
+msgstr ""
+
+#: woocommerce-bit-payment-gateway.php:343
+msgid "Email Subject"
+msgstr ""
+
+#: woocommerce-bit-payment-gateway.php:345
+#: woocommerce-bit-payment-gateway.php:354
+msgid ""
+"Available placeholders: {site_title}, {site_address}, {order_date}, "
+"{order_number}"
+msgstr ""
+
+#: woocommerce-bit-payment-gateway.php:352
+msgid "Email Heading"
+msgstr ""
+
+#: woocommerce-bit-payment-gateway.php:360
+msgid "Display Pending Bit orders in reports?"
+msgstr ""
+
+#: woocommerce-bit-payment-gateway.php:378
+msgid "Phone Number:"
+msgstr ""
+
+#: emails/class-bit-payment-email.php:20
+msgid "Bit Payment Email"
+msgstr ""
+
+#: emails/class-bit-payment-email.php:21
+msgid "This email is received when an order status is changed to Pending."
+msgstr ""
+
+#: emails/class-bit-payment-email.php:200
+msgid "Enable this email notification"
+msgstr ""
+
+#: emails/class-bit-payment-email.php:204
+msgid "Email type"
+msgstr ""
+
+#: emails/class-bit-payment-email.php:206
+msgid "Choose which format of email to send."
+msgstr ""
+
+#: emails/class-bit-payment-email.php:210
+msgid "Plain text"
+msgstr ""
+
+#: emails/class-bit-payment-email.php:212
+msgid "Multipart"
+msgstr ""
+
+#. %s: Customer first name
+#: templates/emails/bit-pending-payment-email.php:32
+#: templates/emails/plain/bit-pending-payment-email.php:28
+#, php-format
+msgid "Hi %s,"
+msgstr ""
+
+#. %s: Order number
+#: templates/emails/bit-pending-payment-email.php:34
+#: templates/emails/plain/bit-pending-payment-email.php:30
+#, php-format
+msgid ""
+"Just to let you know — your order has been received for order number #%s."
+msgstr ""
+
+#: templates/emails/bit-pending-payment-email.php:36
+msgid "Phone Number: "
+msgstr ""
+
+#: templates/emails/bit-pending-payment-email.php:61
+msgid "Thanks!"
+msgstr ""
+
+#: templates/emails/plain/bit-pending-payment-email.php:32
+msgid "Bit Phone Number: "
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"WooCommerce Payment Gateway Plugin for Bit payment method, an Israeli money "
+"transfer service/app."
+msgstr ""

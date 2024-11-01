@@ -1,0 +1,176 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Bit Payment Gateway\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-07 14:43+0000\n"
+"PO-Revision-Date: 2020-05-07 14:43+0000\n"
+"Last-Translator: \n"
+"Language-Team: Hebrew\n"
+"Language: he_IL\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.3; wp-5.4.1"
+
+#: woocommerce-bit-payment-gateway.php:44
+msgid "Configure"
+msgstr "הגדרות"
+
+#: woocommerce-bit-payment-gateway.php:267
+msgid "Bit Payment"
+msgstr "תשלום Bit"
+
+#: woocommerce-bit-payment-gateway.php:269
+#: woocommerce-bit-payment-gateway.php:337
+msgid ""
+"Please forward a Bit payment, use an order number in the Note field when "
+"making payment."
+msgstr "נא להעביר תשלום Bit, יש להשתמש במספר הזמנה בשדה הערה בעת ביצוע התשלום."
+
+#: woocommerce-bit-payment-gateway.php:270
+#: woocommerce-bit-payment-gateway.php:346
+#: woocommerce-bit-payment-gateway.php:347
+msgid "Your {site_title} order has been received!"
+msgstr "ההזמנה {site_title} שלך התקבלה!"
+
+#: woocommerce-bit-payment-gateway.php:271
+#: woocommerce-bit-payment-gateway.php:355
+#: woocommerce-bit-payment-gateway.php:356
+msgid "Thank you for your order"
+msgstr "תודה על הזמנתך"
+
+#: woocommerce-bit-payment-gateway.php:303
+#: emails/class-bit-payment-email.php:198
+msgid "Enable/Disable"
+msgstr "הפעל / השבת"
+
+#: woocommerce-bit-payment-gateway.php:305
+msgid "Enable Bit Payment"
+msgstr "הפעל תשלום עם Bit"
+
+#: woocommerce-bit-payment-gateway.php:310
+msgid "Title"
+msgstr "כותרת"
+
+#: woocommerce-bit-payment-gateway.php:312
+msgid ""
+"This controls the title for the payment method the customer sees during "
+"checkout."
+msgstr "פעולה זו שולטת בכותרת עבור שיטת התשלום שהלקוח רואה במהלך הקנייה."
+
+#: woocommerce-bit-payment-gateway.php:313
+msgid "Bit charge"
+msgstr "תשלום Bit"
+
+#: woocommerce-bit-payment-gateway.php:318
+msgid "Description"
+msgstr "תאור"
+
+#: woocommerce-bit-payment-gateway.php:320
+#: woocommerce-bit-payment-gateway.php:321
+msgid "Payment method description that the customer will see on your checkout."
+msgstr "תיאור שיטת התשלום שהלקוח יראה בקופה שלך."
+
+#: woocommerce-bit-payment-gateway.php:327
+msgid "Receiver Phone Number"
+msgstr "מספר טלפון של מקבל התשלום"
+
+#: woocommerce-bit-payment-gateway.php:329
+msgid "Payments are sent to this number."
+msgstr "מספר טלפון אליו יישלח התשלום"
+
+#: woocommerce-bit-payment-gateway.php:335
+msgid "Instructions"
+msgstr "הוראות"
+
+#: woocommerce-bit-payment-gateway.php:343
+msgid "Email Subject"
+msgstr "נושא האימייל"
+
+#: woocommerce-bit-payment-gateway.php:345
+#: woocommerce-bit-payment-gateway.php:354
+msgid ""
+"Available placeholders: {site_title}, {site_address}, {order_date}, "
+"{order_number}"
+msgstr ""
+"מצייני מיקום זמינים: {site_title}, {site_address}, {order_date}, "
+"{order_number}\n"
+
+#: woocommerce-bit-payment-gateway.php:352
+msgid "Email Heading"
+msgstr "כותרת אימייל הזמנה"
+
+#: woocommerce-bit-payment-gateway.php:360
+msgid "Display Pending Bit orders in reports?"
+msgstr ""
+"להציג הזמנות סיביות ממתינות בדוחות?\n"
+
+#: woocommerce-bit-payment-gateway.php:378
+msgid "Phone Number:"
+msgstr ""
+"מספר טלפון:\n"
+
+#: emails/class-bit-payment-email.php:20
+msgid "Bit Payment Email"
+msgstr "Bit אימייל תשלום"
+
+#: emails/class-bit-payment-email.php:21
+msgid "This email is received when an order status is changed to Pending."
+msgstr "הודעת אימייל זו נשלחת כאשר סטטוס ההזמנה משתנה לסטטוס ״בהמתנה״"
+
+#: emails/class-bit-payment-email.php:200
+msgid "Enable this email notification"
+msgstr "הפעל את הודעת האימייל הזו"
+
+#: emails/class-bit-payment-email.php:204
+msgid "Email type"
+msgstr "סוג אימייל"
+
+#: emails/class-bit-payment-email.php:206
+msgid "Choose which format of email to send."
+msgstr "בחר איזה פורמט של דוא\"ל שישלח."
+
+#: emails/class-bit-payment-email.php:210
+msgid "Plain text"
+msgstr "טקסט רגיל"
+
+#: emails/class-bit-payment-email.php:212
+msgid "Multipart"
+msgstr ""
+"ריבוי חלקים\n"
+
+#. %s: Customer first name
+#: templates/emails/bit-pending-payment-email.php:32
+#: templates/emails/plain/bit-pending-payment-email.php:28
+#, php-format
+msgid "Hi %s,"
+msgstr "היי % s,"
+
+#. %s: Order number
+#: templates/emails/bit-pending-payment-email.php:34
+#: templates/emails/plain/bit-pending-payment-email.php:30
+#, php-format
+msgid ""
+"Just to let you know — your order has been received for order number #%s."
+msgstr "רק כדי ליידע אותך - ההזמנה שלך התקבלה למספר הזמנה #% s."
+
+#: templates/emails/bit-pending-payment-email.php:36
+msgid "Phone Number: "
+msgstr ""
+"מספר טלפון:\n"
+
+#: templates/emails/bit-pending-payment-email.php:61
+msgid "Thanks!"
+msgstr "תודה!"
+
+#: templates/emails/plain/bit-pending-payment-email.php:32
+msgid "Bit Phone Number: "
+msgstr "Bit מספר טלפון:"
+
+#. Description of the plugin
+msgid ""
+"WooCommerce Payment Gateway Plugin for Bit payment method, an Israeli money "
+"transfer service/app."
+msgstr "תוסף שיטת תשלום WooCommerce עבור Bit, שירות העברת כספים בישראל."
